@@ -23,7 +23,7 @@
 |:--:|:--:|:--:|:--:|:--:|
 |屏幕|⚠️|xe 驱动<br>[Issue](https://gitlab.freedesktop.org/drm/xe/kernel/-/work_items/7677)|启动参数添加 `xe.psr2_sel_fetch=0`|屏幕固件问题<br>默认情况花屏拖影|
 |指纹|❌| libfprint<br>[PR](https://gitlab.freedesktop.org/libfprint/libfprint/-/merge_requests/577)| 自行编译安装 libfprint | 实际上驱动已支持，只是没有添加设备 PID <br> 添加 PID 的 PR 上游已合并，等待 Release (1.94.11) |
-|键盘|❌|Linux<br>暂未上报|见 [键盘解决方案](keyboard-fix.md)|疑似 EC 问题|
+|键盘|❌|Linux<br>暂未上报|见 [键盘失灵缓解方案](keyboard-fix.md)|疑似 EC 问题|
 |WiFi|✅|-|-||
 |蓝牙|✅|-|-||
 |摄像头|✅|-|-||
